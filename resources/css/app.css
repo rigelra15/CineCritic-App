@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Mode */
+body {
+  @apply bg-gray-800 text-white;
+}
+
+.dark .content-wrapper {
+  @apply bg-gray-800 text-white;
+}
+
+.dark .sidebar {
+  @apply bg-gray-950 text-white;
+}
+
+.dark table {
+  @apply bg-gray-800 text-white;
+}
+
+.dark th {
+  @apply bg-gray-700 text-white;
+}
+
+.dark td {
+  @apply bg-gray-900 text-white;
+}
+
+
+.dark .content-wrapper {
+  @apply bg-gray-800 text-white;
+}
+
+.dark .sidebar {
+  @apply bg-gray-950 text-white;
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  @apply bg-gray-800 text-white border-gray-600;
+}
+
+.dark table {
+  @apply bg-gray-800 text-white;
+}
+
+.dark th {
+  @apply bg-gray-700 text-white;
+}
+
+.dark td {
+  @apply bg-gray-900 text-white;
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  @apply bg-gray-800 text-white border-gray-600 placeholder-gray-400;
+}
+
+.dark label {
+  @apply text-gray-200;
+}
+
+.dark .form-check-label {
+  @apply text-gray-300;
+}
+
+
+/* .sidebar {
+  width: 16rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1f2937;
+  color: white;
+} */
+
+/* .content-wrapper {
+  margin-left: 16rem; /* Sama dengan lebar sidebar */
+/* } */
